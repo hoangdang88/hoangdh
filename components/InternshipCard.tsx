@@ -37,14 +37,14 @@ export default function InternshipCard(props) {
           <h5 className="pb-2 text-sm lg:text-md">{props.date}</h5>
         </div>
           {props.projects.map((el, index) => (
-            <ProjectCards
-            title={el.projectName}
-            subTitle={el.position}
-            desc={el.desc}
-            link
-            linkText
-            stacks
-          />
+            <div className="lg:ml-8">
+                <h3 className="pt-2 lg:text-lg">Project name: {el.projectName}</h3>
+                <h5 className="pb-2 text-sm lg:text-md">Team size: {el.teamSize}</h5>
+                <h5 className="pb-2 text-sm lg:text-md">Team size: {el.position}</h5>
+                <h5 className="pb-2 text-sm lg:text-md">Responsibilities: {el.responsibilities}</h5>
+                <h5 className="pb-2 text-sm lg:text-md">Description: {el.desc}</h5>
+                <h5 className="pb-2 text-sm lg:text-md">Technologies used: {el.tech}</h5>
+            </div>
           ))}
       </div>
     </>

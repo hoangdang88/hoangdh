@@ -251,18 +251,6 @@ export default function Header() {
               <h1 className="ml-2">Experience</h1>
             </div>
           </Link>
-          <Link href="/projects">
-            <div
-              className={
-                router.pathname == '/projects'
-                  ? 'p-2 w-auto flex border-b border-red-500 items-center'
-                  : 'p-2 w-auto flex border-b border-transparent  hover:border-gray-400 items-center'
-              }
-            >
-              <IoAlbumsOutline />
-              <h1 className="ml-2">Projects</h1>
-            </div>
-          </Link>
           <Link href="/contact">
             <div
               className={
