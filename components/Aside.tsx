@@ -11,6 +11,7 @@ import {
   IoStorefrontOutline,
   IoPhonePortraitOutline,
   IoArrowDown,
+  IoTodaySharp,
 } from 'react-icons/io5';
 import Pills from '@/components/Pills';
 import Link from 'next/link';
@@ -29,7 +30,7 @@ export default function Aside() {
 
         <div className="my-2">
           <a
-            href="assets/resume/sample-resume.pdf"
+            href="assets/resume/hoangdh-resume.pdf"
             download
             className="flex gap-1 items-center w-max border-none rounded px-3 py-1 bg-green-700 text-white hover:bg-green-600"
           >
@@ -45,16 +46,22 @@ export default function Aside() {
               <IoLocationOutline className="flex-none text-gray-500" />{' '}
               TP Hồ Chí Minh
             </div>
-            <Link href="mailto:user@domain.com">
+            <Link href="mailto:hoangdh808@gmail.com">
               <div className="flex gap-x-2 items-center">
                 <IoMailOutline className="flex-none text-gray-500" />{' '}
                 hoangdh808@gmail.com
               </div>
             </Link>
-            <Link href="tel:+919912341234">
+            <Link href="tel:0974008586">
               <div className="flex gap-x-2 items-center">
                 <IoPhonePortraitOutline className="flex-none text-gray-500" />{' '}
                 0974008586
+              </div>
+            </Link>
+            <Link href="">
+              <div className="flex gap-x-2 items-center">
+                <IoTodaySharp className="flex-none text-gray-500" />{' '}
+                08/08/1993
               </div>
             </Link>
           </div>
@@ -87,11 +94,13 @@ export default function Aside() {
           <h3 className="text-lg font-semibold pt-1">Skills</h3>
           <div className="mt-2 flex flex-wrap gap-3">
             <Pills text="Java" cname="bg-red-100 py-1" />
-            <Pills text="MySql" cname="bg-blue-100 py-1" />
+            <Pills text="Nodejs" cname="bg-red-200 py-1" />
+            <Pills text="MySql" cname="bg-blue-300 py-1" />
             <Pills text="PostgreSQL" cname="bg-purple-100 py-1" />
             <Pills text="Javascript" cname="bg-green-100 py-1" />
-            <Pills text="Reactjs" cname="bg-yellow-200 py-1" />
-            <Pills text="Vuejs" cname="bg-yellow-300 py-1" />
+            <Pills text="jquery" cname="bg-yellow-200 py-1" />
+            <Pills text="Reactjs" cname="bg-yellow-300 py-1" />
+            <Pills text="Vuejs" cname="bg-yellow-400 py-1" />
           </div>
         </div>
       </aside>

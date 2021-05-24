@@ -16,7 +16,7 @@ export default function contact() {
   return (
     <>
       <Head>
-        <title>Contact :: GitWind</title>
+        <title>Contact :: HoangDh</title>
       </Head>
       <Layout border="border-2">
         <h3 className="text-lg font-semibold mt-4">Contact Details</h3>
@@ -28,7 +28,7 @@ export default function contact() {
             <h3 className="text-sm md:text-md">
               Don't like forms? Send me an{' '}
               <a
-                href="mailto:user@domain.com"
+                href="mailto:hoangdh808@gmail.com"
                 className="text-blue-600 hover:underline"
               >
                 email
