@@ -100,33 +100,6 @@ export default function Header() {
                       </Menu.Item>
                       <Menu.Item>
                         <a
-                          href="/projects"
-                          className="bg-violet-500 text-gray-900 group flex rounded-md items-center w-full px-2 py-2 text-sm"
-                        >
-                          <IoAlbumsOutline className="w-5 h-5 mr-2" />
-                          Projects
-                        </a>
-                      </Menu.Item>
-                      <Menu.Item>
-                        <a
-                          href="/awards-certification"
-                          className="bg-violet-500 text-gray-900 group flex rounded-md items-center w-full px-2 py-2 text-sm"
-                        >
-                          <IoRibbonOutline className="w-5 h-5 mr-2" />
-                          Awards & Certifications
-                        </a>
-                      </Menu.Item>
-                      <Menu.Item>
-                        <a
-                          href="/blogs"
-                          className="bg-violet-500 text-gray-900 group flex rounded-md items-center w-full px-2 py-2 text-sm"
-                        >
-                          <IoChatboxEllipsesOutline className="w-5 h-5 mr-2" />
-                          Blogs
-                        </a>
-                      </Menu.Item>
-                      <Menu.Item>
-                        <a
                           href="/contact"
                           className="bg-violet-500 text-gray-900 group flex rounded-md items-center w-full px-2 py-2 text-sm"
                         >
@@ -139,7 +112,7 @@ export default function Header() {
                           href="https://dntandan.ml"
                           className="text-center border-t bg-violet-500 text-gray-900 group flex rounded-md items-center w-full px-2 py-3 mt-1 text-sm"
                         >
-                          Made with 💙 by @dntandan
+                          Made with 💙 by @hoangdh
                         </a>
                       </Menu.Item>
                     </div>
@@ -151,7 +124,7 @@ export default function Header() {
           <Link href="/">
             <div className="flex gap-2 items-center">
               <IoCode className="text-2xl" />
-              <h3 className="text-lg font-bold">johndoe</h3>
+              <h3 className="text-lg font-bold">HoangDh</h3>
             </div>
           </Link>
           <div className="pt-2">
